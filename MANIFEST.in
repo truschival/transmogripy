@@ -9,3 +9,4 @@ recursive-include data *
 # actual source code
 recursive-include transmogripy *.py
 
+recursive-include ifoo *.py
