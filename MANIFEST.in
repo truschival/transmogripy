@@ -1,0 +1,11 @@
+# Manifest.in defines what goes into the distribution package
+
+#include license
+include LICENSE.txt
+
+# recursively include all 'data' i.e. binary and verbatim resources
+recursive-include data *
+
+# actual source code
+recursive-include src *.py
+
