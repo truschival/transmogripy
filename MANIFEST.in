@@ -4,9 +4,9 @@
 include LICENSE.txt
 
 # recursively include all 'data' i.e. binary and verbatim resources
-recursive-include data *
+# recursive-include data *
 
 # actual source code
-recursive-include transmogripy *.py
+recursive-include transmogripy *.py 
 
 recursive-include ifoo *.py
